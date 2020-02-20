@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+.img {
+  width: 180px;
+  height: 40px;
+  padding-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+  text-decoration: none;
+}
+
+li {
+  padding: 20px;
+}
+.img1 {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.h5 {
+  display: flex;
+  justify-content: center;
+  color: #5ccdb2;
+}
+.paragraphe {
+  display: flex;
+  justify-content: center;
+  color: gray;
+}
+.p {
+  display: flex;
+  width: 400px;
+}
+.tableau1 {
+  background: #00ccb1;
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 9px;
+}
+.tableau {
+  display: flex;
+  justify-content: space-around;
+  padding: 90px;
+}
+.image1 {
+  width: 150px;
+  height: 120px;
+  padding-left: 300px;
+  padding-top: 30px;
+}
+.texte1 {
+  color: antiquewhite;
 }
 
-.App-link {
-  color: #61dafb;
+.Box2 {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: #e5faf8;
+}
+.text10 {
+  width: 35%;
+  color: #00ccb1;
+  padding: 40px;
+}
+.text11 {
+  width: 35%;
+  color: grey;
+  padding: 40px;
+}
+.carre {
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2%;
+  justify-content: space-between;
+}
+.tableau2 {
+  background-color: white;
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  font-size: 12px;
+  color: grey;
+  border-radius: 9px;
+  padding: 2%;
+}
+.Box2-main {
+  padding-left: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text12 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  color: #5ccdb2;
+  align-items: center;
+}
+
+.par {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: grey;
+}
+.tableau5 {
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 55px;
+  height: 50px;
+}
+.title3 {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.bouton3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.aaa {
+  display: flex;
+  justify-content: space-between;
+}
+.fff {
+  background-color: blue;
 }
